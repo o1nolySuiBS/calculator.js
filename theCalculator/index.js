@@ -12,7 +12,9 @@ function calculate(){
     try{
     displey.value = eval(displey.value)
     }
-    catch (error){
+
+    catch (error)
+    {
         displey.value = "Error"
     }
 }
