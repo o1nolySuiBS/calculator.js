@@ -55,10 +55,12 @@ button:active{
 }
 
 .operator-btn{
+
     background-color: orange;
 }
 
 .operator-btn:hover{
+
     background-color: #ffb029;
 }
 
