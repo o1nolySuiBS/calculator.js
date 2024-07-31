@@ -1,5 +1,4 @@
 body{
-
     margin: 0;
     display: flex;
     justify-content: center;
@@ -9,8 +8,6 @@ body{
 }
 
 #calculator{
-
-
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
@@ -19,7 +16,6 @@ body{
 }
 
 #display{
-
     width: 100%;
     padding: 20px;
     font-size: 5rem;
@@ -30,7 +26,6 @@ body{
 }
 
 #keys{
-
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -38,7 +33,6 @@ body{
 }
 
 button{
-
     width: 100px;
     height: 100px;
     border-radius: 50px;
@@ -51,27 +45,22 @@ button{
 }
 
 button:hover{
-
     background-color: hsl(0, 0%, 40%);
 }
 
 button:active{
-
     background-color: hsl(0, 0%, 50%);
 }
 
 .operator-btn{
-
     background-color: orange;
 }
 
 .operator-btn:hover{
-
     background-color: #ffb029;
 }
 
 .operator-btn:active{
-
     background-color: #ffc567;
 }
 
