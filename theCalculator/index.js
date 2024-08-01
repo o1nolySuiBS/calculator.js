@@ -5,10 +5,12 @@ function appendToDisplay(input){
 }
 
 function clearDisplay(){
+
     displey.value =""
 }
 
 function calculate(){
+
     try{
     displey.value = eval(displey.value)
     }
