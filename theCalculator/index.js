@@ -3,12 +3,10 @@ const displey = document.getElementById("display")
 function appendToDisplay(input){
     displey.value += input
 }
-
 function clearDisplay(){
 
     displey.value =""
 }
-
 function calculate(){
 
     try{
